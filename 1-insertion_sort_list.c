@@ -29,6 +29,9 @@ void insertion_sort_list(listint_t **list)
 {
 	listint_t *node1 = *list, *node2 = (*list)->next;
 
+	if (node1 ==  NULL || node2 == NULL)
+		return;
+
 	while (1)
 	{
 		if (node1->n > node2->n)
