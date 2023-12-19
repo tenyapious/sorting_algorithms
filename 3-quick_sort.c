@@ -59,7 +59,7 @@ int partition(int *array, size_t size, int start, int end)
 */
 void sort(int *array, size_t size, int start, int end)
 {
-	int pivot_location;	
+	int pivot_location;
 
 	if (start < end)
 	{
